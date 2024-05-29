@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!--bonne pratique d'ajouter un attribut lang avec comme valeur fr si le contenu de votre page est en français-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Boris Rose" />
+    <meta name="description" content="Profile Page" />
+    <link rel="stylesheet" href="./css/base/base.css" /> 
+    <link rel="stylesheet" href="./css/utils/keyframes.css" />
+    <link rel="stylesheet" href="./css/layouts/header.css">
+    <link rel="stylesheet" href="./css/pages/profile.css" />
+    <link rel="stylesheet" href="./css/components/message-card.css" />
+    <link rel="stylesheet" href="./css/components/form.css">
+
+    <script src="https://kit.fontawesome.com/1b1fa6fbda.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="app-header">
+        <figure>
+          <img src="./assets/chezBobo.jpg">
+        </figure>
+        <nav>
+          <a>
+            <i class="fa-solid fa-house"></i>
+          </a>
+          <a>
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a>
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </a>
+        </nav>
+    </header>
+    <main>
+
+    <article class="profile-card">
+      <figure>
+        <img src="./assets/mexican-girl.jpg" alt="photo of a mexican girl"/>
+      </figure>
+      <span aria-label="va contenir le nom de la personne connecté" id="where-the-name-should-be"></span>
+    </article>
+
+    <form class="form" id="form">
+      <section id="form-inputs">
+      </section>
+      <section id="form-buttons">
+      </section>
+    </form>
+
+    </main>
+    <!-- Le script js qui doit être exécuté au moment du chargement de la page-->
+    <script  type="module" src="./javascript/profile.js"></script>
+  </body>
+</html>

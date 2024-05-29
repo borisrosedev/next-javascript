@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    border: solid #000 2px;
+    width: 400px;
+    align-self: center;
+    opacity: 0;
+    animation: show-bottom 1s ease-in-out 2s forwards;
+    section {
+        display: flex;
+        flex-direction: column;
+        article {
+            display: flex;
+            width: 100%;
+            input {
+                width: 100%;
+                margin-block: 10px;
+                margin-inline: 10px;
+            }
+        }
+    }
+    section:has(button){
+        display: flex;
+        flex-direction: row;
+    }
+    input {
+        padding: 10px;
+
+    }
+}

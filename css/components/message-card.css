@@ -1,0 +1,11 @@
+.profile-card {
+    display: flex;
+    padding: 1.5px;
+    align-items: center;
+    box-shadow: 1px 1px 5px hsl(0, 0%, 0%);
+    width: 400px;
+    margin: 40px auto;
+    background-color: beige;
+    opacity: 0;
+    animation: show-right 1s ease-in-out 1s forwards;
+}
